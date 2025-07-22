@@ -1,3 +1,15 @@
-   bin/
-   debug/
-   obj/
+# IDE-specific
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+
+# User-specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# EF Core Migrations (если не нужны)
+# Migrations/
+
