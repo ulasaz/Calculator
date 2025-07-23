@@ -12,8 +12,8 @@ public class Expression
     private static int right;
     
     private string expression;
-    private static int firstValue;
-    private static int result;
+    private int firstValue;
+    private int result;
     private List<char> characters;
 
 
@@ -25,7 +25,7 @@ public class Expression
     }
     
     private void Calculate()
-    {
+    {  
         while (Contains('*') || Contains('/'))
         {
             for (int i = 0; i < characters.Count; i++)
